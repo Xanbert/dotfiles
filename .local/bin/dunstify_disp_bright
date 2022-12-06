@@ -1,0 +1,12 @@
+#!/bin/bash
+# dunstify_disp_bright
+
+# Arbitrary but unique message tag
+msgTag="brightness"
+
+# Query amixer for the current volume and whether or not the speaker is muted
+bright="$(xbacklight -get)"
+dunstify -i display-brightness-symbolic -h string:x-dunst-stack-tag:$msgTag \
+    -h int:value:"$bright" "Bright: ${bright}%"
+
+

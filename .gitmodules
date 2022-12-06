@@ -1,0 +1,6 @@
+[submodule ".config/alacritty/alacritty-theme"]
+	path = .config/alacritty/alacritty-theme
+	url = git@github.com:alxndrt0512/alacritty-theme.git
+[submodule "emacs-config"]
+	path = emacs-config
+	url = git@github.com:alxndrt0512/emacs-config

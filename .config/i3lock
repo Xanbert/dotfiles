@@ -1,0 +1,22 @@
+LANG="C" i3lock -L \
+-i ~/Pictures/Wallpaper/wall.png \
+-e -k \
+--verif-text="" \
+--wrong-text="Error" \
+--time-pos="ix:300" \
+--time-color=839496 \
+--time-font=ubuntu \
+--time-size=100 \
+--date-color=839496 \
+--date-font=ubuntu \
+--date-size=50 \
+--date-pos="tx:ty+100" \
+--greeter-font=ubuntu \
+--wrong-font=ubuntu \
+--bar-indicator \
+--wrong-color=839496 \
+--wrong-size=80 \
+--wrong-text="" \
+--indicator \
+--bar-direction=2 \
+--bar-count 1 

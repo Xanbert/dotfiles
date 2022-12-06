@@ -1,0 +1,12 @@
+alias em='emacs'
+alias emn="emacs -nw"
+alias sudo='sudo '
+alias doas='doas '
+alias e="emerge"
+alias es="eix"
+alias eu="equery u"
+alias man="info"
+alias ff="firefox-bin"
+alias sl="ls"
+alias ll="ls"
+alias dr='emacs --eval "(dirvish)"'
