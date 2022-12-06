@@ -28,7 +28,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 
 # Load autojump mamually
-source /usr/share/autojump/autojump.zsh 
+source /usr/local/share/autojump/autojump.zsh 
 
 # Load the theme.
 antigen theme romkatv/powerlevel10k
